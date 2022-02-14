@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+
+    <!-- SEÇÃO DO MENU SIDEBAR-->
+    <section id="menu">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+            <h2>Dash Admin</h2>
+        </div>
+        
+        <div class="items">
+            <li><i class="fas fa-chart-pie"></i><a href="#">Dashboard</a></li>
+            <li><i class="fas fa-cube"></i><a href="#">Quartil</a></li>
+            <li><i class="fas fa-headset"></i><a href="#">Operador</a></li>
+            <li><i class="fas fa-user-tie"></i><a href="#">Supervisor</a></li>
+        </div>
+    </section>
+    
+    <section id="interface">
+        <div class="navigation">
+            <div class="n1">
+                <div>
+                    <i id="menu-btn" class="fas fa-bars"></i>
+                </div>
+                <div class="search">
+                    <i class="far fa-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+
+            <div class="profile">
+                <i class="far fa-bell"></i>
+                <img src="images/kurt.jpg" alt="">
+            </div>
+        </div>
+        
+        <h3 class="i-name">
+            Dashboard
+        </h3>
+
+        <div class="values">
+            <div class="val-box">
+                <i class="fas fa-users"></i>
+                <div>
+                    <h3>8,265</h3>
+                    <span>New Users</span>
+                </div>
+            </div>
+
+
+            <div class="val-box">
+                <i class="fas fa-chart-pie"></i>
+                <div>
+                    <h3>8,265</h3>
+                    <span>New Users</span>
+                </div>
+            </div>
+
+            <div class="val-box">
+                <i class="fas fa-cube"></i>
+                <div>
+                    <h3>8,265</h3>
+                    <span>New Users</span>
+                </div>
+            </div>
+
+
+            <div class="val-box">
+                <i class="fas fa-user-tie"></i>
+                <div>
+                    <h3>8,265</h3>
+                    <span>New Users</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="board">
+            <table width="100%">
+                <thead> <!--Table Head-->
+                    <tr>   <!--Table Row-->
+                        <td>Nome</td>  <!--Table Column-->
+                        <td>Cargo</td>
+                        <td>Status</td>
+                        <td>Project</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>  <!--CORPO DA TABELA-->
+                    <tr> 
+                        <td class="people">
+                            <img src="images/kurt.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Kurt Cobain</h5>
+                                <p>kurt.cobain@mail.com</p>
+                            </div>
+                        </td>
+
+                        <td clas="people-des">
+                            <h5>Analista</h5>
+                            <p>Processos e Negócios</p>
+                        </td>
+
+                        <td class="active"><p>Ativo</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit">
+                            <a href="#">Editar</a>
+                        </td>
+                    </tr>
+
+                    <tr> 
+                        <td class="people">
+                            <img src="images/lena.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Milena Souza</h5>
+                                <p>milena.souza@mail.com</p>
+                            </div>
+                        </td>
+
+                        <td clas="people-des">
+                            <h5>Analista Backoffice</h5>
+                            <p>Religa Enel</p>
+                        </td>
+
+                        <td class="active"><p>Ativo</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit">
+                            <a href="#">Editar</a>
+                        </td>
+                    </tr>
+
+                    <tr> 
+                        <td class="people">
+                            <img src="images/dave.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Dave Ghrol</h5>
+                                <p>dave.ghrol@mail.com</p>
+                            </div>
+                        </td>
+
+                        <td clas="people-des">
+                            <h5>Marketing</h5>
+                            <p>Digital Midia</p>
+                        </td>
+
+                        <td class="active"><p>Ativo</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit">
+                            <a href="#">Editar</a>
+                        </td>
+                    </tr>
+
+                    <tr> 
+                        <td class="people">
+                            <img src="images/kurt.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Kurt Cobain</h5>
+                                <p>kurt.cobain@mail.com</p>
+                            </div>
+                        </td>
+
+                        <td clas="people-des">
+                            <h5>Analista</h5>
+                            <p>Processos e Negócios</p>
+                        </td>
+
+                        <td class="active"><p>Ativo</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit">
+                            <a href="#">Editar</a>
+                        </td>
+                    </tr>
+
+                    <tr> 
+                        <td class="people">
+                            <img src="images/kurt.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Kurt Cobain</h5>
+                                <p>kurt.cobain@mail.com</p>
+                            </div>
+                        </td>
+
+                        <td clas="people-des">
+                            <h5>Analista</h5>
+                            <p>Processos e Negócios</p>
+                        </td>
+
+                        <td class="active"><p>Ativo</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit">
+                            <a href="#">Editar</a>
+                        </td>
+                    </tr>
+
+                    <tr> 
+                        <td class="people">
+                            <img src="images/kurt.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Kurt Cobain</h5>
+                                <p>kurt.cobain@mail.com</p>
+                            </div>
+                        </td>
+
+                        <td clas="people-des">
+                            <h5>Analista</h5>
+                            <p>Processos e Negócios</p>
+                        </td>
+
+                        <td class="active"><p>Ativo</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit">
+                            <a href="#">Editar</a>
+                        </td>
+                    </tr>
+
+
+                </tbody>
+
+            </table>
+        </div>
+
+    </section>
+    <script>
+        $('#menu-btn').click(function(){
+            $('#menu').toggleClass("active");
+        })
+    </script>
+</body>
+</html>
